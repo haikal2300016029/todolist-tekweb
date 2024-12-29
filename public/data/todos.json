@@ -1,0 +1,28 @@
+[
+    {
+      "id": "todo-1",
+      "text": "Menghadiri Kelas Kemuhammadiyahan",
+      "completed": true
+    },
+    {
+      "id": "todo-2",
+      "text": "Menyelesaikan Tugas Essay Kemuhammadiyahan",
+      "completed": false
+    },
+    {
+      "id": "todo-3",
+      "text": "Membaca Buku Filsafat Islam",
+      "completed": false
+    },
+    {
+      "id": "todo-4",
+      "text": "Mengumpulkan Laporan Praktikum",
+      "completed": true
+    },
+    {
+      "id": "todo-5",
+      "text": "Menghadiri Seminar Akademik",
+      "completed": false
+    }
+  ]
+  

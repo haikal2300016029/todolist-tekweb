@@ -1,0 +1,91 @@
+/* Mengatur rata tengah teks */
+.App {
+  text-align: center;
+}
+
+/* Mengatur tinggi logo dan menonaktifkan pointer events */
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+/* Animasi rotasi logo jika preferensi pengguna tidak mengurangi gerakan */
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+/* Mengatur gaya header aplikasi */
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+/* Mengatur warna link di aplikasi */
+.App-link {
+  color: #61dafb;
+}
+
+/* Definisi keyframes untuk animasi spin */
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+/* Kelas untuk animasi background gradasi */
+/* .gradient-background {
+  background: linear-gradient(270deg, #ff7e5f, #feb47b, #86a8e7, #91eae4);
+  background-size: 800% 800%;
+  animation: gradient-animation 10s ease infinite;
+} */
+
+/* Definisi keyframes untuk animasi background gradasi */
+/* @keyframes gradient-animation {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+} */
+
+.app-container {
+  width: 100%;
+  height: 100vh; /* Memastikan tinggi viewport penuh */
+  position: relative;
+  background-color: transparent; /* Akan ditimpa oleh kelas Tailwind CSS di App.js */
+  overflow: hidden;
+}
+
+.m-auto {
+  position: relative;
+  z-index: 10; /* Memastikan konten berada di atas latar belakang */
+  background-color: rgba(52, 81, 150, 0.75); /* Semi-transparan untuk memungkinkan warna latar belakang terlihat */
+  /* ...gaya lainnya... */
+}
+
+/* Hapus atau sesuaikan setiap latar belakang lain yang mungkin menutupi latar belakang solid */
+
+/* Contoh: Jika Anda memiliki pengaturan latar belakang lain, pastikan tidak menimpa */
+body {
+  margin: 0;
+  padding: 0;
+  /* Opsional: tetapkan warna latar belakang default */
+  /* background-color: #yourColor; */
+}
+
+/* Pastikan tidak ada elemen lain yang memiliki latar belakang yang menyembunyikan */
